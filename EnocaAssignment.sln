@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{7829BAC2-927C-48E4-AF32-F5EFB0577BB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{E3AA57A3-0ED2-452C-BE17-3C0069C966B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{D864AAEE-FD37-4471-9FBA-1E5C0704958C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{56295551-91A8-4F07-88FA-9BEE964226AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaAssignment.Domain", "EnocaAssignment.Domain\EnocaAssignment.Domain.csproj", "{0E18EB48-361F-4016-8E67-4C66E1B23DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaAssignment.Application", "EnocaAssignment.Application\EnocaAssignment.Application.csproj", "{17D67A19-2FC2-41E7-9176-5B6D60A80522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaAssignment.Api", "EnocaAssignment.Api\EnocaAssignment.Api.csproj", "{CFCB6FC4-6458-4B04-B589-96260EEBD14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnocaAssignment.Service", "EnocaAssignment.Service\EnocaAssignment.Service.csproj", "{3357714F-BA2F-48B2-9728-07DB51F65FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E18EB48-361F-4016-8E67-4C66E1B23DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E18EB48-361F-4016-8E67-4C66E1B23DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E18EB48-361F-4016-8E67-4C66E1B23DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E18EB48-361F-4016-8E67-4C66E1B23DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D67A19-2FC2-41E7-9176-5B6D60A80522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D67A19-2FC2-41E7-9176-5B6D60A80522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D67A19-2FC2-41E7-9176-5B6D60A80522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D67A19-2FC2-41E7-9176-5B6D60A80522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCB6FC4-6458-4B04-B589-96260EEBD14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCB6FC4-6458-4B04-B589-96260EEBD14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCB6FC4-6458-4B04-B589-96260EEBD14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCB6FC4-6458-4B04-B589-96260EEBD14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3357714F-BA2F-48B2-9728-07DB51F65FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3357714F-BA2F-48B2-9728-07DB51F65FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3357714F-BA2F-48B2-9728-07DB51F65FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3357714F-BA2F-48B2-9728-07DB51F65FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E18EB48-361F-4016-8E67-4C66E1B23DAD} = {7829BAC2-927C-48E4-AF32-F5EFB0577BB9}
+		{17D67A19-2FC2-41E7-9176-5B6D60A80522} = {E3AA57A3-0ED2-452C-BE17-3C0069C966B4}
+		{CFCB6FC4-6458-4B04-B589-96260EEBD14A} = {56295551-91A8-4F07-88FA-9BEE964226AB}
+		{3357714F-BA2F-48B2-9728-07DB51F65FE5} = {D864AAEE-FD37-4471-9FBA-1E5C0704958C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F89CF50-59DB-481A-B4CF-3FBF3C831DB6}
+	EndGlobalSection
+EndGlobal
