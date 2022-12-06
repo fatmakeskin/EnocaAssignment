@@ -12,6 +12,6 @@ namespace EnocaAssignment.Domain.Dto
         public DateTime FilmReleaseDate { get; set; }
         public DateTime FilmExpireDate { get; set; }
 
-
+        public int FilmHallModelId { get; set; }
     }
 }

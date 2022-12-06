@@ -44,7 +44,7 @@ namespace EnocaAssignment.Api.Controllers
         {
             try
             {
-                if (filmhallDto != null) return BadRequest();
+                if (filmhallDto == null) return BadRequest();
                 service.Update(filmhallDto);
                 return Ok();
             }
