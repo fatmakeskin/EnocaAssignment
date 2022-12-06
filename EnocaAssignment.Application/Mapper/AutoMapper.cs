@@ -15,12 +15,15 @@ namespace EnocaAssignment.Application.Mapper
         {
             CreateMap<AddFilmDto, FilmModel>();
             CreateMap<FilmModel, FilmDto>();
+            CreateMap<FilmDto, FilmModel>();
 
             CreateMap<AddFilmHallDto, FilmHallModel>();
             CreateMap<FilmHallModel, FilmHallDto>();
+            CreateMap<FilmHallDto, FilmHallModel>();
 
             CreateMap<AddSessionDto, FilmSessionModel>();
             CreateMap<FilmSessionModel, SessionDto>();
+            CreateMap<SessionDto, FilmSessionModel>();           
 
         }
     }
